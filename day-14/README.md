@@ -44,6 +44,7 @@ In this step, we'll configure AWS CodeBuild to build our Python application base
 - Specify the build commands, such as installing dependencies and running tests. Customize this based on your application's requirements.
 - Set up the artifacts configuration to generate the build output required for deployment.
 - Review the build project settings and click on the "Create build project" button to create your AWS CodeBuild project.
+- store your dockerhub creds in aws system manager.
 
 Fantastic! With AWS CodeBuild all set up, we're now ready to witness the magic of continuous integration in action.
 
