@@ -1,6 +1,6 @@
 # AWS Continuous Integration Demo
 
-## Set Up GitHub Repository
+## Set Up GitHub Repository(step1)
 
 The first step in our CI journey is to set up a GitHub repository to store our Python application's source code. If you already have a repository, feel free to skip this step. Otherwise, let's create a new repository on GitHub by following these steps:
 
@@ -31,7 +31,7 @@ In this step, we'll create an AWS CodePipeline to automate the continuous integr
 
 Awesome job! We now have our pipeline ready to roll. Let's move on to the next step to set up AWS CodeBuild.
 
-## Configure AWS CodeBuild
+## Configure AWS CodeBuild(step2)
 
 In this step, we'll configure AWS CodeBuild to build our Python application based on the specifications we define. CodeBuild will take care of building and packaging our application for deployment. Follow these steps:
 
